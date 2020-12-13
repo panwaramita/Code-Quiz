@@ -1,0 +1,148 @@
+a
+{
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+span
+{
+    float: right;
+}
+
+#time
+{
+    float: right;
+    margin-right: 10px;
+}
+
+#coding{
+    /*clear:both;*/
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+#main_page
+{
+    text-align: center;
+}
+#ask_question
+{
+   /* text-align: left;*/
+   /* margin-left:500px;*/
+    margin-top:120px;
+}
+
+#question
+{
+    margin: auto;
+    width: 40%;
+    
+   
+    
+}
+.goBack
+{
+    background-color: purple;
+    color: white;
+    margin-top:10px;
+    text-align: center;
+}
+
+#submit
+{
+    background-color: purple;
+    color: white;
+    margin-top:10px;
+    text-align: center;
+}
+
+#start
+{
+    background-color: purple;
+    color: white;
+    margin-top:10px;
+    text-align: center;
+}
+
+#contentAlign
+{
+    text-align: center;
+}
+
+.question
+{
+    font-size: 30px;
+   /* width: 600px;*/
+    font-weight: bold;
+
+}
+
+
+
+.option
+{
+    background-color: purple;
+    color: white;
+    padding-bottom: 3px;
+    line-height:1.2;
+}
+
+.answers label:hover
+{
+    background-color:lightpink;
+}
+
+#ans
+{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    
+}
+
+#score
+{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 100px;
+}
+#finalSore
+{
+    text-align: left;
+}
+#finalResult
+{
+ display: none;
+/*width: 400px;
+margin-left:500px;*/
+text-align: center;
+margin-top: 100px;
+}
+
+#list
+{
+    margin:auto;
+
+}
+
+tr:nth-child(even) { 
+    background-color: lightblue; 
+} 
+.high
+{
+    margin:auto;
+      
+        color: black;
+        font-size: 1.25rem;
+        font-weight: bold;
+        padding: 5px;
+        width: 40%;
+        list-style: none;
+    
+}
