@@ -197,7 +197,7 @@ function goToNextQuestion(event) {
 
     }
     else {
-        if(time>5)
+        if(time>10)
         {
         time = time - 10;
         }
