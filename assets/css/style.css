@@ -10,7 +10,13 @@ span
 {
     float: right;
 }
-
+/*set the main content of the page to sign*/
+p
+{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
 /*for the timer set the float right and set the margin*/
 #time
 {
@@ -62,14 +68,14 @@ span
     font-weight: bold;
     text-align: left;
     margin: auto;
-
+    line-height: 1;
 
 }
 
 /*set the font styling for the multiple options*/
 .option
 {
-    background-color: purple;
+    background-color: RGB(56, 3, 110);
     color: white;
     padding-bottom: 3px;
     line-height:1.2;
@@ -78,6 +84,7 @@ span
 .answers
 {
     margin:auto;
+    margin-top:10px;
 }
 /*when mouse over change the background color*/
 .answers label:hover
@@ -125,14 +132,14 @@ text-align: center;
 
 /*set the alternate background color*/
 tr:nth-child(even) { 
-    background-color: lightblue; 
+    background-color:RGB(3, 99, 110); 
     height: 3px;
 } 
 
 /*set the alternate background color*/
 tr:nth-child(odd) { 
     background-color: lightpink; 
-    height: 3px;
+     height: 3px;
 }
 /*set the style for the table row*/
 .high
@@ -141,7 +148,7 @@ tr:nth-child(odd) {
       
         color: black;
         font-size: 1.25rem;
-        font-weight: bold;
+        font-weight: 400;
         padding: 5px;
         width: 40%;
         list-style: none;
