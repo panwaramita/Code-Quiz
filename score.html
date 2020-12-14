@@ -1,24 +1,29 @@
+<!--Score html page-->
 <!DOCTYPE html>
 
 <head>
     <title>Code Quiz</title>
+    <!--link to bootstrap file-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link href="./assets/css/style.css" rel="stylesheet">
+    <!--link to css file-->
+        <link href="./assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
+    <!--section to store all the scores-->
     <section>
         <div id="score">
             Highscores
         </div>
         <div id="list">
-
         </div>
     </section>
+    <!--section for go back and clear highscore button-->
     <section id="contentAlign">
         <button type="submit" id="getData" onclick="goBack()" class="goBack">Go Back</button>
         <button type="submit" id="highscore" onclick="clearFun()" class="goBack">Clear HighSore</button>
     </section>
+    <!--link to external script file-->
     <script src="./assets/script/score.js"></script>
 </body>

@@ -1,47 +1,44 @@
+/*set the css of the view highscore*/
 a
 {
     text-decoration: none;
     margin-left: 20px;
 }
 
-
+/*set the span to right*/
 span
 {
     float: right;
 }
 
+/*for the timer set the float right and set the margin*/
 #time
 {
     float: right;
     margin-right: 10px;
 }
 
-#coding{
-    /*clear:both;*/
+/*set the style for the question*/
+#coding
+{
     margin-top: 100px;
     text-align: center;
-
 }
 
-#main_page
-{
-    text-align: center;
-}
+/*set the margin for the question section*/
 #ask_question
 {
-   /* text-align: left;*/
-   /* margin-left:500px;*/
     margin-top:120px;
 }
 
+/*set the margin and width for the question*/
 #question
 {
     margin: auto;
     width: 40%;
-    
-   
-    
 }
+
+/*class for go back button*/
 .goBack
 {
     background-color: purple;
@@ -50,37 +47,23 @@ span
     text-align: center;
 }
 
-#submit
-{
-    background-color: purple;
-    color: white;
-    margin-top:10px;
-    text-align: center;
-}
-
-#start
-{
-    background-color: purple;
-    color: white;
-    margin-top:10px;
-    text-align: center;
-}
-
-#contentAlign
+/*set the style for the main page*/
+.contentAlign
 {
     text-align: center;
+    margin:auto;
+    width:60%;
 }
 
+/*set the font styling for the questions*/
 .question
 {
     font-size: 30px;
-   /* width: 600px;*/
     font-weight: bold;
 
 }
 
-
-
+/*set the font styling for the multiple options*/
 .option
 {
     background-color: purple;
@@ -89,11 +72,14 @@ span
     line-height:1.2;
 }
 
+
+/*when mouse over change the background color*/
 .answers label:hover
 {
     background-color:lightpink;
 }
 
+/*for the right or wrong ans set the style*/
 #ans
 {
     margin: auto;
@@ -101,7 +87,7 @@ span
     padding: 10px;
     
 }
-
+/*to display the score the style*/
 #score
 {
     margin: auto;
@@ -112,28 +98,32 @@ span
     font-size: 40px;
     margin-top: 100px;
 }
+
+/*to display the score the style*/
 #finalSore
 {
     text-align: left;
 }
+/*to display the final score the style*/
 #finalResult
 {
  display: none;
-/*width: 400px;
-margin-left:500px;*/
 text-align: center;
 margin-top: 100px;
 }
 
+/*style for the score table*/
 #list
 {
     margin:auto;
-
 }
 
+/*set the alternate background color*/
 tr:nth-child(even) { 
     background-color: lightblue; 
 } 
+
+/*set the style for the table row*/
 .high
 {
     margin:auto;
