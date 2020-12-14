@@ -197,7 +197,14 @@ function goToNextQuestion(event) {
 
     }
     else {
+        if(time>5)
+        {
         time = time - 10;
+        }
+        else
+        {
+            time=0;
+        }
         if (finalScore <= 0) {
             finalScore = 0;
         }

@@ -15,7 +15,7 @@ span
 #time
 {
     float: right;
-    margin-right: 10px;
+    margin-right: 30px;
 }
 
 /*set the style for the question*/
@@ -35,7 +35,7 @@ span
 #question
 {
     margin: auto;
-    width: 40%;
+    width: 600px;
 }
 
 /*class for go back button*/
@@ -60,6 +60,9 @@ span
 {
     font-size: 30px;
     font-weight: bold;
+    text-align: left;
+    margin: auto;
+
 
 }
 
@@ -72,7 +75,10 @@ span
     line-height:1.2;
 }
 
-
+.answers
+{
+    margin:auto;
+}
 /*when mouse over change the background color*/
 .answers label:hover
 {
@@ -91,9 +97,9 @@ span
 #score
 {
     margin: auto;
-    width: 50%;
+    width: 42%;
     padding: 10px;
-    text-align: center;
+    text-align: left;
     font-weight: bold;
     font-size: 40px;
     margin-top: 100px;
@@ -109,7 +115,6 @@ span
 {
  display: none;
 text-align: center;
-margin-top: 100px;
 }
 
 /*style for the score table*/
@@ -121,8 +126,14 @@ margin-top: 100px;
 /*set the alternate background color*/
 tr:nth-child(even) { 
     background-color: lightblue; 
+    height: 3px;
 } 
 
+/*set the alternate background color*/
+tr:nth-child(odd) { 
+    background-color: lightpink; 
+    height: 3px;
+}
 /*set the style for the table row*/
 .high
 {

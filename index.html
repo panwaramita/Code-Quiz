@@ -35,23 +35,29 @@
 
     </section>
     <!--section to start the quiz-->
-    <section class="contentAlign">
-        <section id="question">
-            <div id="ask_question"></div>
+    <section class="container">
+        <section class="row">
+        <section id="question" class="col-lg-12">
 
-        </section>
-
+       
+            <div id="ask_question"></div> </section>
+    </section>
         <!--section to display the final result-->
-        <section id="finalResult">
+        <section class="row">
+        <section id="finalResult" class="col-lg-12">
             <h2>All done !</h2>
             <label> Your final score is</label> <label id="finalSore"></label>
             <br>
             Enter INITIALS <input type="text" id="initial" /><button type="submit" id="submit" class="goBack">submit</button>
         </section>
     </section>
-    <!--section to display if the answer selected by user is correct or not-->
-    <section id="ans">
     </section>
+    <!--section to display if the answer selected by user is correct or not-->
+    <section class="row">
+    <section id="ans" class="col-lg-12">
+    </section>
+    </section>
+
     <!--link to the external script files-->
     <script src="./assets/script/script.js"></script>
     <script src="./assets/script/score.js"></script>
