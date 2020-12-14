@@ -199,7 +199,7 @@ function goToNextQuestion(event) {
     else {
         if(time>10)
         {
-        time = time - 10;
+        time = time - 9;
         }
         else
         {
