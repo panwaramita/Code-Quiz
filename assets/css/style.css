@@ -52,6 +52,7 @@ p
     color: white;
     margin-top:10px;
     text-align: center;
+    border-radius: 5px;
 }
 
 /*set the style for the main page*/
@@ -80,15 +81,17 @@ p
     color: white;
     padding-bottom: 3px;
     line-height:1.2;
+    border-radius: 5px;
 }
 
 .answers
 {
     margin:auto;
-    margin-top:10px;
+    margin-top:20px;
+    line-height: 1.8;
 }
 /*when mouse over change the background color*/
-.answers label:hover
+.answers button:hover
 {
     background-color:lightpink;
 }

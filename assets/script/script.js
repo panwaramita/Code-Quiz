@@ -15,7 +15,7 @@ var i = 0;
 /*declare the object to hold javascript multiple type question */
 const myQuestions = [
     {
-        question: "1.Who invented JavaScript?",
+        question: "1. Who invented JavaScript?",
         answers: {
             1: "Douglas Crockford",
             2: "Sheryl Sandberg",
@@ -24,7 +24,7 @@ const myQuestions = [
         correctAnswer: "1"
     },
     {
-        question: "2.Which one of these is a JavaScript package manager?",
+        question: "2. Which one of these is a JavaScript package manager?",
         answers: {
             1: "Node.js",
             2: "TypeScript",
@@ -33,7 +33,7 @@ const myQuestions = [
         correctAnswer: "2"
     },
     {
-        question: "3.Which tool can you use to ensure code quality?",
+        question: "3. Which tool can you use to ensure code quality?",
         answers: {
             1: "Angular",
             2: "jQuery",
@@ -43,7 +43,7 @@ const myQuestions = [
         correctAnswer: "3"
     },
     {
-        question: "4.Which is not a primitive data type in JavaScript?",
+        question: "4. Which is not a primitive data type in JavaScript?",
         answers: {
             1: "boolean",
             2: "number",
@@ -53,7 +53,7 @@ const myQuestions = [
         correctAnswer: "4"
     },
     {
-        question: "5.Which of these is a correct method to create a new array?",
+        question: "5. Which of these is a correct method to create a new array?",
         answers: {
             1: "var myArray = ();",
             2: " var myArray = [];",
@@ -62,7 +62,7 @@ const myQuestions = [
         correctAnswer: "2"
     },
     {
-        question: "6.Which of these is not a logical operator?",
+        question: "6. Which of these is not a logical operator?",
         answers: {
             1: "!",
             2: "&",
@@ -72,7 +72,7 @@ const myQuestions = [
         correctAnswer: "2"
     },
     {
-        question: "7.JavaScript is ______ language?",
+        question: "7. JavaScript is ______ language?",
         answers: {
             1: "Scripting",
             2: "Programming",
@@ -81,7 +81,7 @@ const myQuestions = [
         correctAnswer: "1"
     },
     {
-        question: "8.JavaScript is ______ Side scripting language?",
+        question: "8. JavaScript is ______ Side scripting language?",
         answers: {
             1: "Server",
             2: "Client",
@@ -91,7 +91,7 @@ const myQuestions = [
         correctAnswer: "4"
     },
     {
-        question: "9.JavaScript code between a pair of “script” tags are called?",
+        question: "9. JavaScript code between a pair of “script” tags are called?",
         answers: {
             1: "Non-inline",
             2: "External",
@@ -101,7 +101,7 @@ const myQuestions = [
         correctAnswer: "4"
     },
     {
-        question: "10.Which of the following attribute can hold the JavaScript version?",
+        question: "10. Which of the following attribute can hold the JavaScript version?",
         answers: {
             1: "LANGUAGE",
             2: "SCRIPT",
@@ -155,10 +155,10 @@ function showQuesions() {
     else {
 
         for (letter in myQuestions[i].answers) {
-            answers.push('<label class="option" id=' + letter + '>'
-                + letter + ': '
+            answers.push('<button type="button" class="option" id=' + letter + '>'
+                + letter + '. '
                 + myQuestions[i].answers[letter]
-                + '</label>' + '<br>'
+                + '</button>' + '<br>'
             );
 
 
@@ -177,8 +177,7 @@ function showQuesions() {
 
 /*Event listner for when the user click the answer and go to the next function */
 quizContainer.addEventListener("click", function (event) {
-    if (event.target.nodeName === "LABEL") {
-
+    if (event.target.nodeName === "BUTTON") {
         goToNextQuestion(event);
     }
 });
@@ -197,13 +196,11 @@ function goToNextQuestion(event) {
 
     }
     else {
-        if(time>10)
-        {
-        time = time - 10;
+        if (time > 10) {
+            time = time - 10;
         }
-        else
-        {
-            time=0;
+        else {
+            time = 0;
         }
         if (finalScore <= 0) {
             finalScore = 0;
@@ -217,10 +214,8 @@ function goToNextQuestion(event) {
             rightWrong.innerHTML = "";
         }, 2000);
     }
-
     i++;
     showQuesions();
-    //setTimer();
 }
 var initial = document.querySelector("#initial");
 
@@ -228,7 +223,7 @@ var initial = document.querySelector("#initial");
 submitInitial.addEventListener("click", function (event) {
     event.preventDefault();
     /*check if the initial is entered or not*/
-    if (initial.value === "") {
+    if (initial.value === " ") {
         alert("Please enter your initials!");
         return null;
     }
