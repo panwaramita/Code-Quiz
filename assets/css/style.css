@@ -1,3 +1,8 @@
+/*set the css for all the html page*/
+body
+{
+    overflow-x: hidden;
+}
 /*set the css of the view highscore*/
 a
 {
