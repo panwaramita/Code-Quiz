@@ -139,13 +139,13 @@ text-align: center;
     margin:auto;
 }
 
-/*set the alternate background color*/
+/*set the alternate background color for the even rows of the table*/
 tr:nth-child(even) { 
-    background-color:RGB(3, 99, 110); 
+    background-color:RGB(228, 221, 237); 
     height: 3px;
 } 
 
-/*set the alternate background color*/
+/*set the alternate background color for the odd rows of the table */
 tr:nth-child(odd) { 
     background-color: lightpink; 
      height: 3px;
