@@ -47,7 +47,7 @@ function setTable() {
 
         var p = document.createElement("p");
 
-        col.textContent = (i + 1) + "." + highscores.initials[i] + "-" + highscores.scores[i];
+        col.textContent = (i + 1) + ". " + highscores.initials[i] + "-" + highscores.scores[i];
         // col.appendChild(p);
         row.appendChild(col);
         ul.appendChild(row);
